@@ -27,11 +27,11 @@
   --- 
 
   ## Screenshots
-  [!Transactions](./public/images/transactions.png)
+  ![Transactions](./public/images/transactions.png)
 
-  [!Chart](./public/images/chart.png)
+  ![Chart](./public/images/chart.png)
 
-  [!IndexedDB](./public/images/indexeddb.png)
+  ![IndexedDB](./public/images/indexeddb.png)
 
   ---
 
