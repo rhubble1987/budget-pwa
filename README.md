@@ -22,7 +22,11 @@
   ---  
 
   ## Usage:  
-  1. Access the app. 2. Enter a transaction name 3. Enter the transaction amount. 4. Click either "Add Funds" or "Subtract Funds" 5. See the updated total and updated spending over time in the chart at the bottom of the page.  
+  1. Access the app.
+  2. Enter a transaction name
+  3. Enter the transaction amount.
+  4. Click either "Add Funds" or "Subtract Funds"
+  5. See the updated total and updated spending over time in the chart at the bottom of the page.  
 
   --- 
 
