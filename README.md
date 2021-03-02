@@ -26,6 +26,15 @@
 
   --- 
 
+  ## Screenshots
+  [!Transactions](./public/images/transactions.png)
+
+  [!Chart](./public/images/chart.png)
+
+  [!IndexedDB](./public/images/indexeddb.png)
+
+  ---
+
   ## Licensing:  
   Public Domain - App can be shared and modified however you want!
 
