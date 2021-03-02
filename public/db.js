@@ -8,6 +8,8 @@ request.onupgradeneeded = function(event) {
   db.createObjectStore("pending", { autoIncrement: true });
 };
 
+
+
 request.onsuccess = function(event) {
   db = event.target.result;
 
@@ -52,13 +54,13 @@ function checkDatabase() {
       })
       .then(response => response.json())
       .then(() => {
-        // if successful, open a transaction on your pending db
+        // if successful, open a transaction on pending db
         const transaction = db.transaction(["pending"], "readwrite");
 
-        // access your pending object store
+        // access pending object store
         const store = transaction.objectStore("pending");
 
-        // clear all items in your store
+        // clear all items in the store
         store.clear();
       });
     }

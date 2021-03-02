@@ -136,7 +136,9 @@ function sendTransaction(isAdding) {
   })
   .catch(err => {
     // fetch failed, so save in indexed db
+    console.log('Could not access server. Saved to indexed db.')
     saveRecord(transaction);
+    console.log(transaction);
 
     // clear form
     nameEl.value = "";
